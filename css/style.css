@@ -27,6 +27,6 @@ a{
     border: 1px solid #ccc;
 }
 
-.divExemplo button, input {
+.divExemplo button, input, ul {
     margin-top: 10px;
 }

@@ -144,8 +144,7 @@ btnVerificarTab.addEventListener("click", function () {
     if (!isNaN(inpTabuada.value) && inpTabuada.value) {
         ulListaTab.textContent = "";
         for (let i = 0; i < 10; i++) {
-            let mult = i + 1;
-            let num = inpTabuada.value * mult;
+            let num = inpTabuada.value * (i + 1);
             adicionarElemento(ulListaTab, num);
         }
     } else {

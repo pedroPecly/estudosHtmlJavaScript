@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Página principal</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="d-flex flex-column justify-content-between">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">
+                <img src="img/iff.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+                Instituto Federal Fluminense
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Cursos</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Noticias</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div id="divInfo" class="divExemplo">
+            <a>matricula</a>
+            <input type="text" id="inpInfo">
+            <button class="btn btn-info" id="btnVerificar">Verificar</button>
+            <input type="text" id="lblInfo" readonly>
+        </div>
+
+        <div id="divInfo2" class="divExemplo">
+            <a>Data</a>
+            <input type="date" id="inpInfo2">
+            <button class="btn btn-info" id="btnVerificar2">Verificar</button>
+            <input type="text" id="lblInfo2" readonly>
+        </div>
+
+        <div id="divInfo3" class="divExemplo">
+            <a>tabela</a>
+            <input type="text" id="inpLimite">
+            <button class="btn btn-info" id="btnFor">Verificar for</button>
+            <button class="btn btn-info" id="btnWhile">Verificar while</button>
+            <ul id="ulLista" class="list-group mt-2"></ul>
+        </div>
+
+        <div class="divExemplo">
+            <a>tabuada</a>
+            <input type="text" id="inpTabuada">
+            <button class="btn btn-info" id="btnVerificarTab">verificar</button>
+            <ul id="ulListaTab" class="list-group mt-2"></ul>
+        </div>
+
+        <footer id="footerIndex">
+            <div class="bg-dark text-light rodape ">
+                INSTITUTO FEDERAL FLUMINENSE
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
